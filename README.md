@@ -1,10 +1,7 @@
-# Taipei City Dashboard
+# Bubble Tea No Ice
 
-This project is a part of the 2024 Taipei Urban Spring Dashboard Hackathon, a government competition aimed at co-developing a dashboard with the government to promote joint concern between the government and citizens about Taipei City. Our theme for this competition is the Traffic Dashboard. Our team, "真的是Go了！" received an Honorable Mention.
+This is a Flutter game where the gameplay involves rotating pearls to dodge ice blocks that fall at random. This game is an open-source project, and everyone is welcome to modify the gameplay to enhance excitement and novelty.
 
-## Ownership
-
-The ownership of this dashboard belongs to the [Taipei Urban Intelligence Center (TUIC)](https://tuic.gov.taipei/en).
 
 ## Demo
 <p align="center">
@@ -16,7 +13,7 @@ The ownership of this dashboard belongs to the [Taipei Urban Intelligence Center
 ## Installation Steps
 
 1. **Download the project**:
-   [Download Link](https://github.com/JarrenPoh/Taipei-City-Dashboard)
+   [Download Link](https://github.com/JarrenPoh/BubbleTeaNoIce)
 
 2. **Navigate to the Docker directory**:
    ```sh
