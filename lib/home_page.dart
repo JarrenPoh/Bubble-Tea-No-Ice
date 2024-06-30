@@ -26,8 +26,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     _bloc = HomePageBloc(
       widget.centerX,
       widget.centerY,
-      // MediaQuery.of(context).size.width / 2,
-      // MediaQuery.of(context).size.height * 3 / 5,
       double.infinity,
       resetGame,
       _showCountdown,
