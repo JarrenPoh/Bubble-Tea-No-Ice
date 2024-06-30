@@ -22,8 +22,8 @@ class HomePageBloc {
   final Function resetGame;
   final Function showCountdown; // 用于显示倒计时
   int level = 0;
-  late double iceSpeed = speedList[level][0]; // 冰塊下降速度
-  late double bubbleSpeed = speedList[level][1]; // 珍珠旋轉速度
+  late double iceSpeed = 5.0; // 冰塊下降速度
+  late double bubbleSpeed = 0.075; // 珍珠旋轉速度
   int countDown = 3;
   bool isCountDown = false;
 
