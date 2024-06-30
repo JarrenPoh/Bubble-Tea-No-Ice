@@ -5,7 +5,7 @@ This is a Flutter game where the gameplay involves rotating pearls to dodge ice 
 
 ## Demo
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JarrenPoh/Bubble-Tea-No-Ice/assets/logo.png" />
+  <img src="https://github.com/JarrenPoh/Bubble-Tea-No-Ice/blob/master/assets/logo.png?raw=true" />
 </p>
 
 [Demo Video Click Here](https://firebasestorage.googleapis.com/v0/b/absolute-text-353909.appspot.com/o/螢幕錄影%202024-06-24%20凌晨4.31.22.mov?alt=media&token=d6d1724c-7468-4991-aac1-c2f0b6c073a8)
