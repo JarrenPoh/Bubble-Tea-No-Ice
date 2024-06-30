@@ -9,7 +9,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '珍珠奶茶去冰',
       theme: ThemeData(primarySwatch: Colors.brown),
-      home: HomePage(),
+      home: HomePage(
+        centerX: MediaQuery.of(context).size.width / 2,
+        centerY: MediaQuery.of(context).size.height * 3 / 5,
+      ),
     );
   }
 }

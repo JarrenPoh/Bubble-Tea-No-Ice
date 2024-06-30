@@ -5,20 +5,29 @@ import 'package:flutter/material.dart';
 import 'globals/game_painter.dart';
 
 class HomePage extends StatefulWidget {
+  final double centerX;
+  final double centerY;
+  const HomePage({
+    super.key,
+    required this.centerX,
+    required this.centerY,
+  });
+
   @override
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage>
-    with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   late HomePageBloc _bloc;
 
   @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
+  void initState() {
+    super.initState();
     _bloc = HomePageBloc(
-      MediaQuery.of(context).size.width / 2,
-      MediaQuery.of(context).size.height * 3 / 5,
+      widget.centerX,
+      widget.centerY,
+      // MediaQuery.of(context).size.width / 2,
+      // MediaQuery.of(context).size.height * 3 / 5,
       double.infinity,
       resetGame,
       _showCountdown,
