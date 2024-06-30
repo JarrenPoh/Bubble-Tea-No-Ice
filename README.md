@@ -3,7 +3,7 @@
 This is a Flutter game where the gameplay involves rotating pearls to dodge ice blocks that fall at random. This game is an open-source project, and everyone is welcome to modify the gameplay to enhance excitement and novelty.
 
 <p align="center">
-  <img src="https://github.com/JarrenPoh/Bubble-Tea-No-Ice/blob/master/assets/logo.png?raw=true" />
+  <img src="https://github.com/JarrenPoh/Bubble-Tea-No-Ice/blob/master/assets/play_store_512.png?raw=true" />
 </p>
 
 ## Demo
